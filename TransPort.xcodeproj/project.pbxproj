@@ -13,6 +13,7 @@
 		3E707A1F1E5307FC005868C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E707A1D1E5307FC005868C5 /* Main.storyboard */; };
 		3E707A211E5307FC005868C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E707A201E5307FC005868C5 /* Assets.xcassets */; };
 		3E707A241E5307FC005868C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E707A221E5307FC005868C5 /* LaunchScreen.storyboard */; };
+		3E707A2D1E530821005868C5 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E707A2C1E530821005868C5 /* MultipeerConnectivity.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3E707A201E5307FC005868C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E707A231E5307FC005868C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E707A251E5307FC005868C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E707A2C1E530821005868C5 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E707A2D1E530821005868C5 /* MultipeerConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,7 @@
 			children = (
 				3E707A131E5307FC005868C5 /* TransPort */,
 				3E707A121E5307FC005868C5 /* Products */,
+				3E707A2B1E530821005868C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +81,14 @@
 				3E707A151E5307FC005868C5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E707A2B1E530821005868C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E707A2C1E530821005868C5 /* MultipeerConnectivity.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
